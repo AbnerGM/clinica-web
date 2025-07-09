@@ -1,0 +1,94 @@
+.citas-container {
+  max-width: 900px;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.titulo-citas {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.form-cita label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-cita input,
+.form-cita select {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-cita button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.form-cita button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.form-cita button:disabled {
+  background-color: #8ab4f8;
+  cursor: not-allowed;
+}
+
+.titulo-lista {
+  margin-top: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.tabla-citas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.tabla-citas th,
+.tabla-citas td {
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabla-citas th {
+  background-color: #007bff;
+  color: white;
+}
+
+.tabla-citas tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabla-citas button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.tabla-citas button:hover {
+  background-color: #a71d2a;
+}

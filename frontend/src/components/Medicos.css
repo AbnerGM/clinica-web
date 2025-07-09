@@ -1,0 +1,23 @@
+
+.page-wrapper { margin:110px 20px 20px 250px; }
+
+.card{
+  background:#fff;border-radius:6px;padding:20px;margin-bottom:25px;
+  box-shadow:0 0 6px rgba(0,0,0,.08);
+}
+h2{margin-top:0;font-weight:600;color:#34495e}
+
+.form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.form-grid input,.form-grid select{
+  padding:8px;border:1px solid #ccc;border-radius:4px;font-size:.95rem;
+}
+
+.btn-group{grid-column:1/-1;display:flex;gap:10px}
+button{padding:8px 14px;border:none;border-radius:4px;cursor:pointer;background:#27ae60;color:#fff;font-weight:600}
+button.cancel{background:#7f8c8d}
+button.delete{background:#e74c3c}
+button:hover{opacity:.9}
+
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{border:1px solid #ddd;padding:8px}
+th{background:#34495e;color:#fff;font-weight:600}

@@ -1,0 +1,111 @@
+.pacientes-container {
+  margin-left: 100px;
+  margin-top: 80px;
+  padding: 30px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.pacientes-card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.pacientes-titulo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #198754;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 30px; 
+  margin-bottom: 25px;  
+}
+
+.pacientes-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.pacientes-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.pacientes-button-group {
+  grid-column: span 2;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pacientes-boton {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 180px;
+}
+
+.pacientes-boton-cancelar {
+  padding: 10px;
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 180px;
+}
+
+.pacientes-boton-editar {
+  padding: 6px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.pacientes-boton-eliminar {
+  padding: 6px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pacientes-error {
+  color: red;
+  font-weight: bold;
+  grid-column: span 2;
+}
+
+.pacientes-tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pacientes-th {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.pacientes-td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}

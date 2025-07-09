@@ -1,0 +1,194 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.main-content {
+  margin-left: 110px !important;
+  padding-top: 56px !important; 
+}
+
+.main-content {
+  margin-left: 220px;  
+  padding: 1rem 2rem;  
+  overflow-x: hidden;  
+  width: calc(100% 800px) !important;  
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+}
+
+.main-content {
+  background: #fefaf6;
+  margin-left: 0px;
+  padding-top: 140px;
+  padding: 0rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+.snow-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  width: 8px;
+  height: 8px;
+  background: rgb(62, 126, 245);
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
+/* esto la  Animación de caída */
+@keyframes fall {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) translateX(20px);
+    opacity: 0;
+  }
+}
+
+
+.service-card {
+  position: relative;
+  color: white;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); /*esto es el  Fondo oscuro por encima */
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.service-card:hover::before {
+  background-color: rgba(0, 0, 0, 0.1); /* Se aclara al pasar el mouse */
+}
+
+.service-card .card-body {
+  position: relative;
+  z-index: 2;
+}
+
+/* Hover de la tarjeta */
+.service-card:hover {
+  transform: scale(1.03);
+}
+
+.contenido{
+ display: flex;
+  margin-left: 120px !important;
+  gap: z0px;
+  margin-top: 60px !important;
+}
+
+.contenido-2{
+  margin-top:  60px !important;
+}
+
+.texto-1{
+  margin-bottom: 80px !important;
+}
+
+.imagen-5{
+  margin-bottom: 110px !important;
+  margin-left: 175px !important;
+}
+
+.texto-6{
+  color: rgb(62, 126, 245);
+  font-size: 1.3rem !important;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.glow-persona {
+  display: inline-block;
+  position: relative;
+  animation: pulseGlowSoft 3.5s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+/* Palpitación suave */
+@keyframes pulseGlowSoft {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 10px rgba(0, 136, 255, 0.25))
+            drop-shadow(0 12px 30px rgba(0, 136, 255, 0.4))
+            drop-shadow(0 0 10px rgba(0, 136, 255, 0.15));
+  }
+  50% {
+    transform: scale(1.015); 
+    filter: drop-shadow(0 0 25px rgba(0, 136, 255, 0.6))
+            drop-shadow(0 15px 40px rgba(0, 136, 255, 0.75))
+            drop-shadow(0 0 15px rgba(0, 136, 255, 0.2));
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 10px rgba(0, 136, 255, 0.25))
+            drop-shadow(0 12px 30px rgba(0, 136, 255, 0.6))
+            drop-shadow(0 0 10px rgba(0, 136, 255, 0.15));
+  }
+}
+
+.btn-agendar-cita {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #198754; 
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(25, 135, 84, 0.4);
+  margin-top: 30px;
+}
+
+.btn-agendar-cita:hover {
+  background-color: #157347; 
+  box-shadow: 0 0 12px rgba(25, 135, 84, 0.7);
+  transform: translateY(-2px);
+}
+
+.texto-9{
+  font-size: 1.3rem;
+  color: #157347;
+}

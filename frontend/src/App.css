@@ -1,0 +1,96 @@
+/* Aca el fondo oscuro detrás del login */
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login-modal > div {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos dentro del login */
+.login-modal input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-modal button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-modal h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+.whatsapp-wrapper {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9999;
+}
+
+.whatsapp-fab {
+  background-color: #00b85c; 
+  color: white;
+  font-size: 1.8rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 0 12px rgba(37, 211, 102, 0.5);
+  position: relative;
+}
+
+.whatsapp-fab::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(37, 211, 102, 0.3);
+  z-index: -1;
+  animation: pulseOnlyCircle 2.5s ease-in-out infinite;
+}
+
+/*Aca solo palpita el contorno */
+@keyframes pulseOnlyCircle {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}

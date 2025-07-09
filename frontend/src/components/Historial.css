@@ -1,0 +1,49 @@
+.consultas-container {
+  padding: 20px;
+}
+
+.form-consulta {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tabla-consultas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla-consultas th,
+.tabla-consultas td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.btn-eliminar {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filtros-busqueda {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.loading {
+  color: blue;
+}
+
+.centrado {
+  text-align: center;
+}

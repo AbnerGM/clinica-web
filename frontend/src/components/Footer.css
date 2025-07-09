@@ -1,0 +1,12 @@
+.footer {
+  width: 100vw;   
+  margin: 0;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  position: relative;  
+  left: 0;
+}
+
+.texto{
+  margin-left: 220px !important;
+}

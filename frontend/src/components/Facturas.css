@@ -1,0 +1,63 @@
+.facturas-container {
+  padding: 2rem;
+  background: #fff;
+  margin-left: 100px; 
+  margin-top: 100px;   
+  min-height: 100vh;
+}
+
+
+.facturas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.facturas-formulario,
+.facturas-filtros {
+  background-color: #f9f9f9;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.facturas-formulario input,
+.facturas-formulario select,
+.facturas-filtros select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.facturas-formulario button,
+.facturas-filtros button {
+  padding: 8px 12px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.facturas-formulario button:hover,
+.facturas-filtros button:hover {
+  background-color: #004999;
+}
+
+.facturas-tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.facturas-tabla th,
+.facturas-tabla td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}

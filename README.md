@@ -64,22 +64,17 @@
 ## 📁 Estructura del Repositorio
 
 clinica-web/
-│
 ├── backend/ # Proyecto Spring Boot
 │ ├── src/
 │ └── pom.xml
-│
 ├── frontend/ # Proyecto React JS
 │ ├── public/
 │ ├── src/
 │ └── package.json
-│
 ├── db/ # Scripts de base de datos
 │ └── clinica.sql
-│
 ├── postman/ # Colección de pruebas
 │ └── Clinica.postman_collection.json
-│
 └── README.md # Este archivo
 
 

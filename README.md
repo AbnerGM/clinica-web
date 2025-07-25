@@ -63,6 +63,7 @@
 
 ## 📁 Estructura del Repositorio
 
+```
 clinica-web/
 ├── backend/ # Proyecto Spring Boot
 │ ├── src/

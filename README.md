@@ -63,7 +63,7 @@
 
 ## 📁 Estructura del Repositorio
 
-``
+```
 clinica-web/
 ├── backend/ # Proyecto Spring Boot
 │ ├── src/
@@ -77,7 +77,7 @@ clinica-web/
 ├── postman/ # Colección de pruebas
 │ └── Clinica.postman_collection.json
 └── README.md # Este archivo
-``
+```
 
 ## 🧑‍💻 Cómo Ejecutar el Proyecto
 

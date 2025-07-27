@@ -6,19 +6,23 @@
 ## LINK DE IMAGENES DEL PROYECTO
 
 
-![Vista del proyecto](https://github.com/user-attachments/assets/ca46799b-0c0d-4e17-9c77-1f33be923984)
+
+
+<img width="1891" height="960" alt="catura-1" src="https://github.com/user-attachments/assets/3050da9b-bdba-4f87-bfc3-4041f2d08a94" />
 
 
 
-![Vista del proyecto](https://github.com/user-attachments/assets/65c62491-daba-4eae-9c80-11874e53c467)
+<img width="1893" height="956" alt="captura-2" src="https://github.com/user-attachments/assets/7dac9af1-7cea-4d64-9173-defb55b31174" />
 
 
 
-![Vista del proyecto](https://github.com/user-attachments/assets/a920040e-be3a-4d37-8455-c29c99668019)
+
+<img width="1893" height="956" alt="captura-3" src="https://github.com/user-attachments/assets/2d8625d2-b5d1-49a4-b37c-334324ca5428" />
 
 
 
-![Vista del proyecto](https://github.com/user-attachments/assets/cee2db05-c6c1-40f5-9e94-ca6c9f49ebe2)
+
+<img width="1888" height="966" alt="captura-4" src="https://github.com/user-attachments/assets/bf3309f2-3c6e-458a-b2f0-f8821bc7c5a4" />
 
 
 ---
@@ -41,6 +45,10 @@
 ### 🛢 Base de Datos
 - MySQL 8+
 - Archivo `.sql` esta incluido en la carpeta `/db` para importar la estructura y datos..
+
+UN EJEMPLO DE LA ARQUITECTURA DE LA BASE DE DATOS RELACIONAL:
+
+![BASE DE DATOS](https://github.com/user-attachments/assets/aa268dec-bf69-4ca8-bb7c-1a896dbcde69)
 
 ### 🧪 Herramientas de Prueba
 - Postman (colección de endpoints incluida en `/postman`)

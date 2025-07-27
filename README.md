@@ -1,6 +1,6 @@
 # 🏥 Sistema de Gestión para Clínica Web
 
-  Este Sistema web fue desarrollado como solución integral para la gestión de una clínica. Incluye funcionalidades como manejo de pacientes, médicos, consultas medicas , administración, citas, facturas, historial medicos, inventarios, productos, recetas, turnos y login seguro y más...
+  Este Sistema clinica salud +  fue desarrollado como solución integral para la gestión de una clínica. Incluye funcionalidades como manejo de pacientes, médicos, consultas medicas , administración, citas, facturas, historial medicos, inventarios, productos, recetas, turnos y login seguro y más...
   El sistema está compuesto por un **Frontend en React**, un **Backend en Spring Boot** y una **Base de Datos MySQL**.
 
 ## LINK DE IMAGENES DEL PROYECTO

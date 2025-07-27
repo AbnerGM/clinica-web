@@ -12,17 +12,22 @@
 
 
 
-<img width="1893" height="956" alt="captura-2" src="https://github.com/user-attachments/assets/7dac9af1-7cea-4d64-9173-defb55b31174" />
+
+
+<img width="1891" height="955" alt="captura-2" src="https://github.com/user-attachments/assets/2b52322f-85a1-41b2-88ca-5cc6c53fa190" />
 
 
 
 
-<img width="1893" height="956" alt="captura-3" src="https://github.com/user-attachments/assets/2d8625d2-b5d1-49a4-b37c-334324ca5428" />
+
+<img width="1890" height="953" alt="captura-3" src="https://github.com/user-attachments/assets/fa47bb8d-39f6-4f35-89d2-6e6e615cf3fc" />
+
 
 
 
 
 <img width="1888" height="966" alt="captura-4" src="https://github.com/user-attachments/assets/bf3309f2-3c6e-458a-b2f0-f8821bc7c5a4" />
+
 
 
 ---
